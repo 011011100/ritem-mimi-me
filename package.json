@@ -6,10 +6,10 @@
     "dev": "vite --port 3333 --open",
     "build": "vite build",
     "preview": "vite preview --port 8766 --open",
-    "test": "vitest",
-    "postinstall": "sh ./.ci-scbe03.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "test": "vitest"
   },
   "dependencies": {
+
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-icons": "^4.3.1",
